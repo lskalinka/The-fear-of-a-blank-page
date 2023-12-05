@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.header {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cover {
+  padding: 7px 24px 32px 20px;
+  background-image: url(./images/cover.svg);
+  background-repeat: no-repeat;
+  background-size: 95% auto;
+  background-position: right center;
+  min-height: 198px;
+}
+
+.intro {
+  padding: 0 20px 38px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+footer {
+  padding: 20px;
+}
+
+.header__logo {
+  width: 78px;
+  display: block;
+}
+
+.header__logo-imge {
+  width: 100%;
+}
+
+.header__menu-item {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.header__menu-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.header__menu-link {
+  line-height: 120%;
+  color: #f5f5f5;
+  font-size: 16px;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__menu-list {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #f5f5f5;
+}
+
+.cover__title {
+  font-family: "EB Garamond", serif;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 100%;
+  width: 100%;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro__heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  color: #ccc;
+}
+
+.intro__date {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+  color: #ccc;
+}
+
+.intro__paragraph {
+  margin-top: 24px;
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond", serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  margin: 32px 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 10px;
+}
+
+.content-section__list-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  display: flex;
+  width: 319px;
+  padding: 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #f5f5f5;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__title {
+  font-family: "EB Garamond";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
+.card_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #fee42a;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 16px;
+}
